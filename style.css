@@ -101,3 +101,15 @@ body {
   }
 }
 
+#hook{
+  background-color: green;
+}
+#background{
+  background-color: orange;
+}
+#support{
+  background-color: blue;
+}
+#contact{
+  background-color: red;
+}
