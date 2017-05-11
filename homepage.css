@@ -1,5 +1,5 @@
 html,
-body, h1, p {
+body {
     width: 100%;
     height: 100%;
     font-size: 30px;
@@ -17,10 +17,7 @@ body, h1, p {
     font-size: 100px;
     color:white;
     text-shadow: 4px 2px #000000;
-    padding-top: 40px;
-}
-#landing p {
-    font-size:25px;
+    padding-top: 170px;
 }
 
 .navbar-custom {
@@ -104,19 +101,46 @@ body, h1, p {
   }
 }
 #hook h1{
-    font-size: 35px;
+    font-size: 46px;
     color: white;
 }
 #hook{
     background:url('images/blurred-background.jpg') ;
     color:white;
 }
+/* === section spacer === */
+blockquote {
+	font-size:55px;
+	border:none;
+	padding-top: 120px;
+	font-family:'Josefin Slab', serif ;
+}
+section.spacer {
+  width:100%;
+	color:black;
+}
+section.spacer.bg3 {
+	background: url(images/blurred-background.jpg) fixed;
+	background-size: cover;
+	width:100%;
+	height:50%;
+}
+/* === section spacer === */
+#background h1{
+  font-size:40px;
+}
 #background{
-  background-color: green;
+  background-color: #4286f4;
+  width:100%;
+  font-size: 20px;
 }
 #support{
-  background-color: blue;
+  background-color: #29a595;
+  width:100%;
+  font-size: 20px;
 }
 #contact{
-  background-color: black;
+  background-color: #a52929;
+  width:100%;
+  font-size: 20px;
 }
