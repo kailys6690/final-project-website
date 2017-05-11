@@ -1,14 +1,16 @@
 html,
-body {
+body, h1, p {
     width: 100%;
     height: 100%;
     font-size: 30px;
+    font-family: 'Poriet One', serif;
 }
 #landing{
     width: 100%;
     height: 100%;
     background:url('images/homepage-2.jpg') no-repeat;
     background-size: cover;
+    margin-bottom: 30px;
   
 }
 #landing h1 {
@@ -98,12 +100,16 @@ body {
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
-    font-size: 4em;
+    font-size: 2em;
   }
 }
-
+#hook h1{
+    font-size: 35px;
+    color: white;
+}
 #hook{
-    background:url('images/quote-3.jpg');
+    background:url('images/blurred-background.jpg') ;
+    color:white;
 }
 #background{
   background-color: green;
