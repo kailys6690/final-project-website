@@ -1,43 +1,37 @@
 html,
 body {
-    width: 100%;
-    height: 100%;
-    font-size: 30px;
-    font-family: 'Poriet One', serif;
-}
-#landing{
-    width: 100%;
-    height: 100%;
-    background:url('images/homepage-2.jpg') no-repeat;
-    background-size: cover;
-    margin-bottom: 30px;
-  
-}
-#landing h1 {
-    font-size: 100px;
-    color:white;
-    text-shadow: 4px 2px #000000;
-    padding-top: 170px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  font-size: 30px;
+  font-family: 'Poriet One', serif;
 }
 
+
+
 .navbar-custom {
-  background-color: #222222; 
+  background-color: #222222;
   border-color: transparent;
 }
+
 .navbar-custom .navbar-brand {
-  color: #ba7748; /*beige color*/
-  font-family: 'Josefin Slab', serif; 
+  color: #ba7748;
+  /*beige color*/
+  font-family: 'Josefin Slab', serif;
   /*edit this part! font-family*/
 }
+
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
   color: #14703a;
 }
+
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
+
 .navbar-custom .navbar-toggle {
   background-color: #ba7748;
   border-color: #fbf7ee;
@@ -46,10 +40,12 @@ body {
   color: white;
   font-size: 12px;
 }
+
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
   background-color: #fed136;
 }
+
 .navbar-custom .nav li a {
   font-family: 'Josefin Slab', serif;
   text-transform: uppercase;
@@ -57,21 +53,25 @@ body {
   letter-spacing: 1px;
   color: white;
 }
+
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
   color: #189439;
   outline: none;
 }
-.navbar-custom .navbar-nav > .active > a {
+
+.navbar-custom .navbar-nav>.active>a {
   border-radius: 0;
   color: white;
   background-color: #fed136;
 }
-.navbar-custom .navbar-nav > .active > a:hover,
-.navbar-custom .navbar-nav > .active > a:focus {
+
+.navbar-custom .navbar-nav>.active>a:hover,
+.navbar-custom .navbar-nav>.active>a:focus {
   color: white;
   background-color: #fec503;
 }
+
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
@@ -87,10 +87,11 @@ body {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
-  .navbar-custom .navbar-nav > .active > a {
+  .navbar-custom .navbar-nav>.active>a {
     border-radius: 3px;
   }
 }
+
 @media (min-width: 768px) {
   .navbar-custom.affix {
     background-color: #222222;
@@ -100,47 +101,85 @@ body {
     font-size: 2em;
   }
 }
-#hook h1{
-    font-size: 46px;
-    color: white;
+#landing {
+  width: 100%;
+  height: 100%;
+  background: url('images/homepage-2.jpg') no-repeat;
+  background-size: cover;
+  font-family: 'Poiret One', cursive;
+  font-size: 2em;
+  color: green;
+  text-shadow: 2px 1px green;
 }
-#hook{
-    background:url('images/blurred-background.jpg') ;
-    color:white;
+
+#landing h1 {
+  font-size: 100px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-shadow: 5px 3px #000000;
+  padding-top: 170px;
 }
+#heading {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 46px;
+  color: white;
+}
+
+
+#hook {
+  background: url('images/blurred-background.jpg');
+  color: white;
+}
+
 /* === section spacer === */
+
 blockquote {
-	font-size:55px;
-	border:none;
-	padding-top: 120px;
-	font-family:'Josefin Slab', serif ;
+  font-size: 55px;
+  border: none;
+  padding-top: 120px;
+  padding-bottom: 90px;
+  font-family: 'Josefin Slab', serif;
 }
+
 section.spacer {
-  width:100%;
-	color:black;
+  width: 100%;
+  color: black;
 }
+
 section.spacer.bg3 {
-	background: url(images/blurred-background.jpg) fixed;
-	background-size: cover;
-	width:100%;
-	height:auto;
+  background: url(images/blurred-background.jpg) fixed;
+  background-size: cover;
+  width: 100%;
+  height: auto;
 }
+
+
 /* === section spacer === */
-#background h1{
-  font-size:40px;
+
+#background h1 {
+  font-size: 40px;
 }
-#background{
+
+#background {
+  margin-top: 55px;
   background-color: #4286f4;
-  width:100%;
+  width: 100%;
   font-size: 20px;
 }
-#support{
+
+#support {
   background-color: #29a595;
-  width:100%;
+  width: 100%;
+  margin-top: 55px;
   font-size: 20px;
 }
-#contact{
+
+#contact {
   background-color: #a52929;
-  width:100%;
+  width: 100%;
+  margin-top: 55px;
   font-size: 20px;
 }
