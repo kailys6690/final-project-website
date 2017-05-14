@@ -3,9 +3,10 @@ body {
   width: 100%;
   height: 100%;
   background-color: white;
-  font-size: 30px;
-  font-family: 'Poriet One', serif;
+  font-size: 45px;
+  font-family: 'Poiret One', cursive;
 }
+
 a,
 a:hover,
 a:focus,
@@ -13,68 +14,87 @@ a:active,
 a.active {
   outline: none;
 }
+
 a {
   color: #fed136;
 }
+
 a:hover,
 a:focus,
 a:active,
 a.active {
   color: #fec503;
 }
+
 .navbar-custom {
   background-color: white;
   border-color: transparent;
 }
+
+
 /*logo*/
+
 .navbar-custom .navbar-brand {
-  color: white;
+  color: White;
+  text-shadow: 2px 3px green;
   font-family: 'Raleway', sans-serif;
 }
+
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: green; /*hover color for mobile logo*/
+  color: green;
+  /*hover color for mobile logo*/
 }
+
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
+
+
 /*mobile navbar*/
+
 .navbar-custom .navbar-toggle {
-  background-color: #FFB533;
-  border-color: #fed136;
+  border-color: black;
   font-family: 'Poiret One', cursive bold;
   color: black;
   font-size: 16px;
 }
+
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: green;
+  color: green;
 }
+
+
 /*options for navbar*/
+
 .navbar-custom .nav li a {
   font-family: 'Raleway', sans-serif;
-
   font-weight: 200;
   letter-spacing: 2px;
   color: white;
 }
+
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
   color: green;
   outline: none;
 }
-.navbar-custom .navbar-nav > .active > a {
+
+.navbar-custom .navbar-nav>.active>a {
   border-radius: 0;
   color: white;
   background-color: #fed136;
 }
-.navbar-custom .navbar-nav > .active > a:hover,
-.navbar-custom .navbar-nav > .active > a:focus {
+
+.navbar-custom .navbar-nav>.active>a:hover,
+.navbar-custom .navbar-nav>.active>a:focus {
   color: white;
   background-color: #fec503;
 }
+
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
@@ -90,10 +110,11 @@ a.active {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
-  .navbar-custom .navbar-nav > .active > a {
+  .navbar-custom .navbar-nav>.active>a {
     border-radius: 3px;
   }
 }
+
 @media (min-width: 768px) {
   .navbar-custom.affix {
     background-color: #222222;
@@ -103,12 +124,13 @@ a.active {
     font-size: 1.5em;
   }
 }
+
 #landing {
   width: 100%;
   height: 100%;
   background: url('images/homepage-2.jpg') no-repeat;
   background-size: cover;
-  font-family:'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 2em;
   color: green;
   text-shadow: 2px 1px white;
@@ -121,27 +143,32 @@ a.active {
   text-shadow: 3px 2px white;
   padding-top: 170px;
 }
+
 #heading {
   width: 100%;
   height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: white;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 46px;
   color: green;
 }
+
 hr {
-width: 80%;
-height: 8px;
-margin-left: auto;
-margin-right: auto;
-background-color:#2a7726;
-border: 0 none;
+  width: 80%;
+  height: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2a7726;
+  border: 0 none;
 }
 
 #hook {
   background: url('images/blurred-background.jpg');
   color: white;
 }
+
 
 /* === section spacer === */
 
@@ -150,7 +177,8 @@ blockquote {
   border: none;
   padding-top: 120px;
   padding-bottom: 90px;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Poiret One', cursive;
+
 }
 
 section.spacer {
@@ -173,22 +201,24 @@ section.spacer.bg3 {
 }
 
 #background {
-  margin-top: 55px;
-  background-color: #4286f4;
   width: 100%;
-  font-size: 20px;
+  padding: 20px;
+  background-color: #4286f4;
+  font-size: 23px;
 }
-
+.carousel{
+  img:200px;
+}
 #support {
   background-color: #29a595;
   width: 100%;
-  margin-top: 55px;
-  font-size: 20px;
+  padding: 20px;
+  font-size: 23px;
 }
 
 #contact {
   background-color: #a52929;
   width: 100%;
-  margin-top: 55px;
-  font-size: 20px;
+  padding: 20px;
+  font-size: 23px;
 }
