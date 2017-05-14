@@ -2,49 +2,67 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-color: white;
   font-size: 30px;
   font-family: 'Poriet One', serif;
 }
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none;
+}
+a {
+  color: #fed136;
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #fec503;
+}
 .navbar-custom {
-  background-color: #222222;
+  background-color: white;
   border-color: transparent;
 }
+/*logo*/
 .navbar-custom .navbar-brand {
-  color: #fed136;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  color: white;
+  font-family: 'Raleway', sans-serif;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #fec503;
+  color: green; /*hover color for mobile logo*/
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
+/*mobile navbar*/
 .navbar-custom .navbar-toggle {
-  background-color: #fed136;
+  background-color: #FFB533;
   border-color: #fed136;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  color: white;
-  font-size: 12px;
+  font-family: 'Poiret One', cursive bold;
+  color: black;
+  font-size: 16px;
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #fed136;
+  background-color: green;
 }
+/*options for navbar*/
 .navbar-custom .nav li a {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 400;
-  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+
+  font-weight: 200;
+  letter-spacing: 2px;
   color: white;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #fed136;
+  color: green;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
@@ -67,7 +85,7 @@ body {
     border: none;
   }
   .navbar-custom .navbar-brand {
-    font-size: 2em;
+    font-size: 1em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -90,26 +108,26 @@ body {
   height: 100%;
   background: url('images/homepage-2.jpg') no-repeat;
   background-size: cover;
-  font-family: 'Poiret One', cursive;
+  font-family:'Josefin Sans', sans-serif;
   font-size: 2em;
   color: green;
-  text-shadow: 2px 1px green;
+  text-shadow: 2px 1px white;
 }
 
 #landing h1 {
   font-size: 100px;
   font-family: 'Josefin Sans', sans-serif;
-  color: white;
-  text-shadow: 5px 3px #000000;
+  color: green;
+  text-shadow: 3px 2px white;
   padding-top: 170px;
 }
 #heading {
   width: 100%;
   height: auto;
-  background-color: black;
+  background-color: white;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 46px;
-  color: white;
+  color: green;
 }
 hr {
 width: 80%;
@@ -141,7 +159,7 @@ section.spacer {
 }
 
 section.spacer.bg3 {
-  background: url(images/blurred-background.jpg) fixed;
+  background: url(images/blurred-background2.jpeg) fixed;
   background-size: cover;
   width: 100%;
   height: auto;
