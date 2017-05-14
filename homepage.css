@@ -36,8 +36,9 @@ a.active {
 
 .navbar-custom .navbar-brand {
   color: White;
-  text-shadow: 2px 3px green;
+  text-shadow: 3px 3px green;
   font-family: 'Raleway', sans-serif;
+  font-size: .6em;
 }
 
 .navbar-custom .navbar-brand:hover,
@@ -72,9 +73,11 @@ a.active {
 
 .navbar-custom .nav li a {
   font-family: 'Raleway', sans-serif;
+  font-size: 25px;
   font-weight: 200;
   letter-spacing: 2px;
-  color: white;
+  color: green;
+  text-shadow: 2px white;
 }
 
 .navbar-custom .nav li a:hover,
@@ -86,13 +89,13 @@ a.active {
 .navbar-custom .navbar-nav>.active>a {
   border-radius: 0;
   color: white;
-  background-color: #fed136;
+  background-color: green;
 }
 
 .navbar-custom .navbar-nav>.active>a:hover,
 .navbar-custom .navbar-nav>.active>a:focus {
   color: white;
-  background-color: #fec503;
+  background-color: green;
 }
 
 @media (min-width: 768px) {
@@ -117,11 +120,13 @@ a.active {
 
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #222222;
+    background-color: white;
     padding: 10px 0;
+    border-bottom-style: groove;
+    border-color: #1BC322;
   }
   .navbar-custom.affix .navbar-brand {
-    font-size: 1.5em;
+    font-size: .8em;
   }
 }
 
@@ -178,7 +183,6 @@ blockquote {
   padding-top: 120px;
   padding-bottom: 90px;
   font-family: 'Poiret One', cursive;
-
 }
 
 section.spacer {
@@ -206,9 +210,11 @@ section.spacer.bg3 {
   background-color: #4286f4;
   font-size: 23px;
 }
-.carousel{
-  img:200px;
+
+.carousel {
+  img: 200px;
 }
+
 #support {
   background-color: #29a595;
   width: 100%;
