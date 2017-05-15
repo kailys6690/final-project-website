@@ -4,7 +4,7 @@ body {
   height: 100%;
   background-color: white;
   font-size: 45px;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Raleway', sans-serif;
 }
 
 a,
@@ -207,7 +207,7 @@ section.spacer.bg3 {
 #background {
   width: 100%;
   padding: 20px;
-  background-color: #4286f4;
+  background-color: green;
   font-size: 23px;
 }
 
@@ -223,7 +223,7 @@ section.spacer.bg3 {
 }
 
 #contact {
-  background-color: #a52929;
+  background-color: green;
   width: 100%;
   padding: 20px;
   font-size: 23px;
