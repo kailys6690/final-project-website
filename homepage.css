@@ -187,7 +187,8 @@ blockquote {
 
 section.spacer {
   width: 100%;
-  color: black;
+  color: white;
+  text-shadow: 2px 2px green;
 }
 
 section.spacer.bg3 {
@@ -206,25 +207,32 @@ section.spacer.bg3 {
 
 #background {
   width: 100%;
-  padding: 20px;
-  background-color: green;
+  padding: 120px;
   font-size: 23px;
-}
-
-.carousel {
-  img: 200px;
+  color: green;
+  text-shadow: 1px 1px green;
+  border-style: double;
+  border-radius: 22px;
+  border-color: green;
+  border-width: 10px;
 }
 
 #support {
-  background-color: #29a595;
+  background-color: #004600;
   width: 100%;
-  padding: 20px;
+  padding: 150px;
   font-size: 23px;
+  color: white;
 }
 
 #contact {
-  background-color: green;
   width: 100%;
-  padding: 20px;
+  padding: 80px;
   font-size: 23px;
+  color: green;
+  text-shadow: 1px 1px green;
+  border-style: double;
+  border-radius: 22px;
+  border-color: green;
+  border-width: 10px;
 }
