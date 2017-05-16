@@ -82,7 +82,8 @@ a.active {
 
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: green;
+  color: white;
+  text-shadow: 2px 2px green;
   outline: none;
 }
 
