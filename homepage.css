@@ -204,8 +204,11 @@ section.spacer.bg3 {
 
 
 /* === section spacer === */
-.col-sm-offset-4 {
-    padding-left: 50px;
+.col-sm- {
+    padding-left: 90px;
+}
+.col-sm-6 {
+    padding-left: 90px;
 }
 #background h1 {
   font-size: 40px;
