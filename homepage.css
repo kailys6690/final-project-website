@@ -83,7 +83,7 @@ a.active {
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
   color: white;
-  text-shadow: 2px 2px green;
+  text-shadow: 2px 3px green;
   outline: none;
 }
 
@@ -205,6 +205,9 @@ section.spacer.bg3 {
 #background h1 {
   font-size: 40px;
 }
+#background p {
+  padding:23px;
+}
 
 #background {
   width: 100%;
@@ -217,7 +220,12 @@ section.spacer.bg3 {
   border-color: green;
   border-width: 10px;
 }
-
+#support h2 {
+  padding-top: 67px;
+}
+#support p {
+  padding:7px,35px;
+}
 #support {
   background-color: #004600;
   width: 100%;
