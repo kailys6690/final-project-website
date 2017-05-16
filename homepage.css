@@ -141,7 +141,10 @@ a.active {
   color: green;
   text-shadow: 2px 1px white;
 }
-
+#landing p {
+  padding-left: 250px;
+  font-size: 70px;
+}
 #landing h1 {
   font-size: 100px;
   font-family: 'Josefin Sans', sans-serif;
@@ -201,17 +204,19 @@ section.spacer.bg3 {
 
 
 /* === section spacer === */
-
+.col-sm-offset-4 {
+    padding-left: 50px;
+}
 #background h1 {
   font-size: 40px;
 }
 #background p {
-  padding:23px;
+  padding:33px;
 }
 
 #background {
   width: 100%;
-  padding: 120px;
+  padding: 90px;
   font-size: 23px;
   color: green;
   text-shadow: 1px 1px green;
