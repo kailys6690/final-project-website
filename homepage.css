@@ -210,16 +210,9 @@ section.spacer.bg3 {
 .col-sm-6 {
     padding-left: 90px;
 }
-#background h1 {
-  font-size: 40px;
-}
-#background p {
-  padding:33px;
-}
 
 #background {
   width: 100%;
-  padding: 90px;
   font-size: 23px;
   color: green;
   text-shadow: 1px 1px green;

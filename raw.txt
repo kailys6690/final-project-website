@@ -1,0 +1,12 @@
+src="images/dog-abandoned.jpg" width="200" height="250"
+The Animals that are in shelters come from the streets, abandoned homes, or the owner bring their pets because they don't want them anymore.
+
+ <img class="media-object img-circle" src="images/cat-abandoned.jpeg" width="200" height="250">
+ <p>The animals (cats and dogs) that haven’t been adopted or have stayed too long in the shelter are put down. Each year, an estimate of 2.7 million dogs and cats are killed due to these circumstances.</p>
+ 
+ <img class="media-object img-circle" src="images/shelter.JPG" width="200" height="250">
+  <p>It is estimated that 70 million stray animals are living in the United States and only out of the 70 million stray’s, only six to eight million cats and dogs enter the shelters.</p>
+  
+  <img class="media-object img-circle" src="images/animal-cruelty.jpg" width="200" height="250" >
+  <p>In the year 2007, there were around 1,880 animal abuse cases reported. Of these 1, 212 dogs were reported with some sort of animal cruelty cases. 337 cats suffered at the hands of mindless humans and over 470 other animal species were reported
+                to have suffered from some sort of cruelty.</p>
