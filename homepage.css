@@ -221,10 +221,9 @@ section.spacer.bg3 {
   border-color: green;
   border-width: 10px;
 }
-
-#support h2 {
-  padding-top: 67px;
-  padding-bottom: 40px;
+#heading {
+  font-size: 35px;
+  padding-bottom: 30px;
 }
 #support p {
   padding-top:65px;
